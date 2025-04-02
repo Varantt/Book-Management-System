@@ -1,0 +1,63 @@
+.book {
+    border: 1px solid #ddd;
+    /* Light border around the book card */
+    border-radius: 8px;
+    /* Rounded corners for a clean look */
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+
+    margin-block: 0.675rem;
+    width: 52vh;
+}
+
+.book-header {
+    display: flex;
+    /* Flexbox for header */
+    justify-content: space-between;
+    /* Space between the title and author */
+    align-items: center;
+    /* Vertically align the items */
+    margin-bottom: 12px;
+    /* Space between header and footer */
+}
+
+.book-header h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    /* Remove default margin */
+}
+
+.book-header p {
+    font-size: 0.9em;
+    color: #666;
+    /* Lighter color for author */
+    margin: 0;
+}
+
+.book-footer {
+    display: flex;
+    justify-content: flex-end;
+    /* Align the pages text to the right */
+    font-size: 0.9em;
+    color: #444;
+    /* Darker color for footer text */
+}
+
+.book-footer span {
+    font-style: italic;
+    /* Italicize the page number for a distinct look */
+}
+
+.edit-btn, .remove-btn {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+}

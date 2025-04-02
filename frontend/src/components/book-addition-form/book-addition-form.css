@@ -1,0 +1,25 @@
+#book-addition-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    gap: 0.675rem;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    padding: 1.5rem;
+    width: 50vh;
+}
+
+#book-addition-form input {
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    outline: transparent;
+    width: 100%;
+}
+
+.submit-btn {
+    margin-top: 1.35rem;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5rem 0;
+}
